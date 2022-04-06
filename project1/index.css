@@ -1,0 +1,497 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.navbar {
+    background-color: grey;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.btn-group button {
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+    width: 20%;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+.btn-group button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 1px;
+}
+
+#navbar__logo {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.fa-gem {
+    margin-right: 0.5rem;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item {
+    height: 80px;
+}
+
+.btn__group {
+    border: 1px;
+    color: #fff;
+    padding: 20px 24px;
+    cursor: pointer;
+    border-radius: 1rem;
+    height: 10vh;
+    width: 50vh;
+}
+
+.navbar__links {
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+    color: gray;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: black;
+    background-color: gray;
+}
+
+.button:hover {
+    background: grey;
+    transition: all 0.3s ease;
+}
+
+.header__grp {
+    background-color: white;
+    margin-top: -60px;
+    padding-left: 50px;
+}
+
+
+
+
+h1 button {
+    background: url(./img/ledger\ live.png\ 1.jpg);
+    width: 70px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    font-size: 150%;
+    display: flex;
+    font-weight: bold;
+    padding-right: 100px;
+    padding-left: 50px;
+    background-color: #fff;
+}
+
+
+h1 span {
+    background-image: url(img/sol.png);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border: 25px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+h1 button {
+    display: flex;
+    text-decoration: none;
+    width: auto;
+    height: 20px;
+    outline: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #001c05;
+    padding: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin: 0;
+    position: absolute;
+    left: 10px;
+}
+
+
+.button {
+    background-color: #001c05;
+    display: flex;
+    justify-content: left;
+    box-sizing: border-box;
+    border-width: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 40px;
+    width: 120px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 100;
+    font-size: small;
+
+}
+
+
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    font-size: 150%;
+    display: flex;
+    font-weight: bold;
+    padding-right: 100px;
+    padding-left: 50px;
+    
+}
+
+h3 span {
+    background-image: url(img/coreum\ airdrop.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border: 25px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+h4 button {
+    display: flex;
+    text-decoration: none;
+    width: auto;
+    height: 20px;
+    outline: none;
+    border-radius: 10px;
+    background-color: #001c05;
+    color: white;
+    padding: 20px;
+    padding-right: 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+
+
+h4 span {
+    padding-left: 50%;
+}
+
+h4 {
+    padding-left: 80px;
+}
+
+
+
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-overflow: unset;
+    align-items: center;
+    font-size: 150%;
+    display: flex;
+    font-weight: bold;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+
+h5 span {
+    background-image: url(img/ledger\ live.png\ 1.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border: 25px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+h6 button {
+    display: flex;
+    text-decoration: none;
+    width: auto;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #001c05;
+    color: #fff;
+    padding: 20px;
+    padding-left: 10px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+
+
+
+h6 span {
+    padding-left: 50px;
+}
+
+h6 {
+    padding-left: 80px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+.button_area{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* padding: 10px 10px;
+    margin: 10px 10px; */
+}
+.button_sections{
+    padding: 10px 1px
+}
+
+
+.select_button {
+	background-color: #8e44ad;
+	border: 2px solid #8e44ad;
+
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.select_button:hover {
+    background-color: #000;
+}
+
+.form-control select{
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+.form-control textarea{
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+
+.body_pack{
+	background-color: #9b59b6;
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+}
+
+.container {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	width: 400px;
+	max-width: 100%;
+}
+
+.header {
+	border-bottom: 1px solid #f0f0f0;
+	background-color: #f7f7f7;
+	padding: 20px 40px;
+}
+
+.header h2 {
+	margin: 0;
+}
+
+.form {
+	padding: 30px 40px;	
+}
+
+.form-control {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.form-control label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+}
+
+.form-control i {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form-control small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+.form button {
+	background-color: #8e44ad;
+	border: 2px solid #8e44ad;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+
